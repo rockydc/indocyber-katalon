@@ -1,0 +1,24 @@
+1
+00:00:00,200 --> 00:00:03,934
+1. openBrowser("http://116.254.100.222:81/login")
+
+2
+00:00:03,936 --> 00:00:03,936
+5. name = name
+
+3
+00:00:03,937 --> 00:00:03,937
+9. point = point
+
+4
+00:00:03,937 --> 00:00:07,493
+13. helper.helper.loginBrowser("rocky@gmail.com", "rocky182")
+
+5
+00:00:07,493 --> 00:00:09,277
+17. helper.helper.addDataMember(name, point)
+
+6
+00:00:09,277 --> 00:00:13,768
+21. helper.helper.checkingExistingData("Name", name, "Poin", point)
+

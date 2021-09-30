@@ -1,0 +1,12 @@
+1
+00:00:00,224 --> 00:00:00,225
+1. memberList = tmpData
+
+2
+00:00:00,226 --> 00:00:00,228
+5. for (def data : memberList)
+
+3
+00:00:00,228 --> 00:00:09,155
+1. helper.helper.deleteDataMember(data[0], data[1])
+

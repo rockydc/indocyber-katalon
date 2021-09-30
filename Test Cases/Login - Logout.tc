@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario Login Logout</description>
+   <name>Login - Logout</name>
+   <tag>#login</tag>
+   <comment></comment>
+   <testCaseGuid>d1e1755d-0be0-471c-9097-1347128c18f6</testCaseGuid>
+   <variable>
+      <defaultValue>'rocky@gmail.com'</defaultValue>
+      <description></description>
+      <id>6a20129e-f2cb-4767-9ff8-0e97cb0d2eeb</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test1234'</defaultValue>
+      <description></description>
+      <id>2043d293-19ef-4746-ac78-446a3f7169cc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

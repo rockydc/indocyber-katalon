@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>if number is even ,name = Susan
+if number is odd , name = Jaka
+if number % 5 = 0 , point = number * 5
+if  number % 3 = 0 , point = number * 3
+if number % 4 = 0 , point = number * 4
+else 
+point = number</description>
+   <name>TC_005_ADD Member 20 times using conditional</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04774fec-7d97-4702-9abd-2d43b05689e0</testCaseGuid>
+</TestCaseEntity>

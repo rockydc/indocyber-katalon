@@ -1,0 +1,100 @@
+1
+00:00:00,185 --> 00:00:03,181
+1. openBrowser("http://116.254.100.222:81/login")
+
+2
+00:00:03,182 --> 00:00:08,144
+5. helper.helper.loginBrowser("rocky@gmail.com", "rocky182")
+
+3
+00:00:08,144 --> 00:00:08,638
+9. dataExcel = findTestData("ExcelData")
+
+4
+00:00:08,639 --> 00:00:08,694
+13. excelRowNumber = findTestData("ExcelData").getRowNumbers()
+
+5
+00:00:08,695 --> 00:00:08,697
+17. for ([rowCounter = 1, rowCounter < excelRowNumber, (rowCounter++)])
+
+6
+00:00:08,697 --> 00:00:08,709
+3. Mengambil nama dari excel
+
+7
+00:00:08,710 --> 00:00:08,711
+9. Mengamil job dari excel
+
+8
+00:00:08,712 --> 00:00:08,732
+15. Mengambil point dari id di excel
+
+9
+00:00:08,733 --> 00:00:10,404
+19. helper.helper.addDataMember(getName + "_" + getJob, getPoint)
+
+10
+00:00:10,415 --> 00:00:14,910
+23. helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint)
+
+11
+00:00:14,911 --> 00:00:14,911
+3. Mengambil nama dari excel
+
+12
+00:00:14,911 --> 00:00:14,912
+9. Mengamil job dari excel
+
+13
+00:00:14,912 --> 00:00:14,913
+15. Mengambil point dari id di excel
+
+14
+00:00:14,913 --> 00:00:16,534
+19. helper.helper.addDataMember(getName + "_" + getJob, getPoint)
+
+15
+00:00:16,535 --> 00:00:21,234
+23. helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint)
+
+16
+00:00:21,235 --> 00:00:21,235
+3. Mengambil nama dari excel
+
+17
+00:00:21,235 --> 00:00:21,236
+9. Mengamil job dari excel
+
+18
+00:00:21,236 --> 00:00:21,237
+15. Mengambil point dari id di excel
+
+19
+00:00:21,237 --> 00:00:22,875
+19. helper.helper.addDataMember(getName + "_" + getJob, getPoint)
+
+20
+00:00:22,876 --> 00:00:27,825
+23. helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint)
+
+21
+00:00:27,825 --> 00:00:27,826
+3. Mengambil nama dari excel
+
+22
+00:00:27,826 --> 00:00:27,827
+9. Mengamil job dari excel
+
+23
+00:00:27,827 --> 00:00:27,827
+15. Mengambil point dari id di excel
+
+24
+00:00:27,828 --> 00:00:29,378
+19. helper.helper.addDataMember(getName + "_" + getJob, getPoint)
+
+25
+00:00:29,379 --> 00:00:34,625
+23. helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint)
+

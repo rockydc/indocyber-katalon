@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>order-menu</name>
+   <tag>dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>eb83716b-610d-4ba3-b4d8-83759a3e4f2b</testCaseGuid>
+   <variable>
+      <defaultValue>'sanusi'</defaultValue>
+      <description></description>
+      <id>863644fd-218c-4580-aca3-ba31b1a9cc6c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'087824521599'</defaultValue>
+      <description></description>
+      <id>eb19622c-82ef-428d-84b3-c3b30d09a44b</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'jalan bacok\r\n'</defaultValue>
+      <description></description>
+      <id>e62258e8-4b2f-4fde-8324-939fa40daafb</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nasi goreng'</defaultValue>
+      <description></description>
+      <id>21a8e0c0-962c-49c8-87a6-2eb7a7e001d8</id>
+      <masked>false</masked>
+      <name>menu</name>
+   </variable>
+</TestCaseEntity>

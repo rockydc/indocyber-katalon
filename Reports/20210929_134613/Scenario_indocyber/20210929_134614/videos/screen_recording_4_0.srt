@@ -1,0 +1,308 @@
+1
+00:00:00,222 --> 00:00:03,249
+1. openBrowser("http://116.254.100.222:81/login")
+
+2
+00:00:03,250 --> 00:00:06,742
+5. helper.helper.loginBrowser("rocky@gmail.com", "rocky182")
+
+3
+00:00:06,742 --> 00:00:06,743
+9. maxLoop = 20
+
+4
+00:00:06,743 --> 00:00:06,744
+13. name = ""
+
+5
+00:00:06,744 --> 00:00:06,744
+17. point = 0
+
+6
+00:00:06,745 --> 00:00:06,745
+21. for ([i = 1, i <= maxLoop, (i++)])
+
+7
+00:00:06,746 --> 00:00:06,746
+1. if (i % 2 == 0)
+
+8
+00:00:06,747 --> 00:00:06,747
+2. name = "Susan"
+
+9
+00:00:06,748 --> 00:00:06,749
+6. if (i % 3 == 0 && i % 5 == 0)
+
+10
+00:00:06,750 --> 00:00:06,750
+4. point = i
+
+11
+00:00:06,751 --> 00:00:08,515
+8. helper.helper.addDataMember(name, point.toString())
+
+12
+00:00:08,526 --> 00:00:13,108
+12. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+13
+00:00:13,108 --> 00:00:13,109
+1. if (i % 2 == 0)
+
+14
+00:00:13,109 --> 00:00:13,109
+1. name = "Jaka"
+
+15
+00:00:13,110 --> 00:00:13,112
+5. if (i % 4 == 0 && i % 5 == 0)
+
+16
+00:00:13,112 --> 00:00:13,113
+5. point = i
+
+17
+00:00:13,113 --> 00:00:14,765
+9. helper.helper.addDataMember(name, point.toString())
+
+18
+00:00:14,766 --> 00:00:19,566
+13. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+19
+00:00:19,567 --> 00:00:19,568
+1. if (i % 2 == 0)
+
+20
+00:00:19,568 --> 00:00:19,569
+2. name = "Susan"
+
+21
+00:00:19,569 --> 00:00:19,570
+6. if (i % 3 == 0 && i % 5 == 0)
+
+22
+00:00:19,570 --> 00:00:19,570
+2. point = i * 3
+
+23
+00:00:19,571 --> 00:00:21,219
+6. helper.helper.addDataMember(name, point.toString())
+
+24
+00:00:21,220 --> 00:00:26,183
+10. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+25
+00:00:26,183 --> 00:00:26,184
+1. if (i % 2 == 0)
+
+26
+00:00:26,184 --> 00:00:26,184
+1. name = "Jaka"
+
+27
+00:00:26,184 --> 00:00:26,185
+5. if (i % 4 == 0 && i % 5 == 0)
+
+28
+00:00:26,185 --> 00:00:26,186
+2. point = i * 4
+
+29
+00:00:26,186 --> 00:00:27,748
+6. helper.helper.addDataMember(name, point.toString())
+
+30
+00:00:27,749 --> 00:00:33,002
+10. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+31
+00:00:33,003 --> 00:00:33,003
+1. if (i % 2 == 0)
+
+32
+00:00:33,004 --> 00:00:33,004
+2. name = "Susan"
+
+33
+00:00:33,004 --> 00:00:33,005
+6. if (i % 3 == 0 && i % 5 == 0)
+
+34
+00:00:33,005 --> 00:00:33,005
+3. point = i * 5
+
+35
+00:00:33,006 --> 00:00:34,622
+7. helper.helper.addDataMember(name, point.toString())
+
+36
+00:00:34,623 --> 00:00:37,785
+11. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+37
+00:00:37,785 --> 00:00:37,786
+1. if (i % 2 == 0)
+
+38
+00:00:37,786 --> 00:00:37,786
+1. name = "Jaka"
+
+39
+00:00:37,786 --> 00:00:37,787
+5. if (i % 4 == 0 && i % 5 == 0)
+
+40
+00:00:37,787 --> 00:00:37,788
+3. point = i * 3
+
+41
+00:00:37,788 --> 00:00:39,375
+7. helper.helper.addDataMember(name, point.toString())
+
+42
+00:00:39,376 --> 00:00:45,265
+11. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+43
+00:00:45,265 --> 00:00:45,266
+1. if (i % 2 == 0)
+
+44
+00:00:45,266 --> 00:00:45,266
+2. name = "Susan"
+
+45
+00:00:45,266 --> 00:00:45,267
+6. if (i % 3 == 0 && i % 5 == 0)
+
+46
+00:00:45,267 --> 00:00:45,268
+4. point = i
+
+47
+00:00:45,268 --> 00:00:46,841
+8. helper.helper.addDataMember(name, point.toString())
+
+48
+00:00:46,841 --> 00:00:52,970
+12. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+49
+00:00:52,970 --> 00:00:52,971
+1. if (i % 2 == 0)
+
+50
+00:00:52,971 --> 00:00:52,971
+1. name = "Jaka"
+
+51
+00:00:52,971 --> 00:00:52,972
+5. if (i % 4 == 0 && i % 5 == 0)
+
+52
+00:00:52,972 --> 00:00:52,972
+2. point = i * 4
+
+53
+00:00:52,972 --> 00:00:54,583
+6. helper.helper.addDataMember(name, point.toString())
+
+54
+00:00:54,584 --> 00:01:01,044
+10. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+55
+00:01:01,045 --> 00:01:01,046
+1. if (i % 2 == 0)
+
+56
+00:01:01,046 --> 00:01:01,046
+2. name = "Susan"
+
+57
+00:01:01,046 --> 00:01:01,047
+6. if (i % 3 == 0 && i % 5 == 0)
+
+58
+00:01:01,047 --> 00:01:01,047
+2. point = i * 3
+
+59
+00:01:01,047 --> 00:01:02,662
+6. helper.helper.addDataMember(name, point.toString())
+
+60
+00:01:02,662 --> 00:01:09,481
+10. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+61
+00:01:09,481 --> 00:01:09,482
+1. if (i % 2 == 0)
+
+62
+00:01:09,483 --> 00:01:09,483
+1. name = "Jaka"
+
+63
+00:01:09,484 --> 00:01:09,485
+5. if (i % 4 == 0 && i % 5 == 0)
+
+64
+00:01:09,485 --> 00:01:09,486
+4. point = i * 5
+
+65
+00:01:09,486 --> 00:01:11,056
+8. helper.helper.addDataMember(name, point.toString())
+
+66
+00:01:11,057 --> 00:01:18,101
+12. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+67
+00:01:18,102 --> 00:01:18,102
+1. if (i % 2 == 0)
+
+68
+00:01:18,103 --> 00:01:18,103
+2. name = "Susan"
+
+69
+00:01:18,104 --> 00:01:18,105
+6. if (i % 3 == 0 && i % 5 == 0)
+
+70
+00:01:18,105 --> 00:01:18,106
+4. point = i
+
+71
+00:01:18,106 --> 00:01:19,716
+8. helper.helper.addDataMember(name, point.toString())
+
+72
+00:01:19,717 --> 00:01:51,509
+12. helper.helper.checkingExistingData("Name", name, "Poin", point.toString())
+
+73
+00:01:51,509 --> 00:01:51,510
+1. if (i % 2 == 0)
+
+74
+00:01:51,510 --> 00:01:51,511
+1. name = "Jaka"
+
+75
+00:01:51,511 --> 00:01:51,512
+5. if (i % 4 == 0 && i % 5 == 0)
+
+76
+00:01:51,512 --> 00:01:51,512
+2. point = i * 4
+
+77
+00:01:51,512 --> 00:02:01,533
+6. helper.helper.addDataMember(name, point.toString())
+

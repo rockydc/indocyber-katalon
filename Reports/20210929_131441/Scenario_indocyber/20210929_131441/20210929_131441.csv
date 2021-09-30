@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario_indocyber,Chrome 93.0.4577.82,,,2021-09-29 13:14:52,2021-09-29 13:15:52,1m - 0.410s,ERROR
+,,,,,,,
+Test Cases/Login - Logout,Chrome 93.0.4577.82,Scenario Login Logout,#login,2021-09-29 13:14:52,2021-09-29 13:15:02,9.630s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-29 13:14:53,2021-09-29 13:14:55,2.212s,PASSED
+"navigateToUrl(""http://116.254.100.222:81/login"")",Chrome 93.0.4577.82,,,2021-09-29 13:14:55,2021-09-29 13:14:56,0.646s,PASSED
+"setText(findTestObject(""loginpage/input-email""), email)",Chrome 93.0.4577.82,,,2021-09-29 13:14:56,2021-09-29 13:14:56,0.833s,PASSED
+"setText(findTestObject(""loginpage/input_password""), password)",Chrome 93.0.4577.82,,,2021-09-29 13:14:56,2021-09-29 13:14:57,0.688s,PASSED
+"click(findTestObject(""loginpage/btn-login""))",Chrome 93.0.4577.82,,,2021-09-29 13:14:57,2021-09-29 13:15:00,3.288s,PASSED
+"click(findTestObject(""dashboard/btn-logout""))",Chrome 93.0.4577.82,,,2021-09-29 13:15:00,2021-09-29 13:15:01,0.889s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-29 13:15:01,2021-09-29 13:15:02,0.665s,PASSED
+,,,,,,,
+Test Cases/order-menu,Chrome 93.0.4577.82,,dashboard,2021-09-29 13:15:02,2021-09-29 13:15:16,13.834s,FAILED
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:02,2021-09-29 13:15:04,1.972s,PASSED
+"helper.helper.loginBrowser(""rocky@gmail.com"", ""rocky182"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:04,2021-09-29 13:15:08,3.555s,PASSED
+"click(findTestObject(""Object Repository/dashboard/transaction-menu""))",Chrome 93.0.4577.82,,,2021-09-29 13:15:08,2021-09-29 13:15:09,1.034s,PASSED
+"scrollToElement(findTestObject(""Object Repository/orderPage/orderAction_btn""), 1)",Chrome 93.0.4577.82,,,2021-09-29 13:15:09,2021-09-29 13:15:09,0.440s,PASSED
+"click(findTestObject(""Object Repository/orderPage/orderAction_btn""))",Chrome 93.0.4577.82,,,2021-09-29 13:15:09,2021-09-29 13:15:10,0.352s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/orderPage/modal-content""), 1)",Chrome 93.0.4577.82,,,2021-09-29 13:15:10,2021-09-29 13:15:10,0.678s,PASSED
+"click(findTestObject(""Object Repository/orderPage/btn-nasi""))",Chrome 93.0.4577.82,,,2021-09-29 13:15:10,2021-09-29 13:15:11,0.365s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/orderPage/modal-cat-nasi""), 1)",Chrome 93.0.4577.82,,,2021-09-29 13:15:11,2021-09-29 13:15:11,0.767s,PASSED
+"click(findTestObject(""Object Repository/orderPage/btn-nasi-goreng""))",Chrome 93.0.4577.82,,,2021-09-29 13:15:11,2021-09-29 13:15:12,0.383s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/orderPage/Modal-order""), 1)",Chrome 93.0.4577.82,,,2021-09-29 13:15:12,2021-09-29 13:15:12,0.755s,PASSED
+"verifyElementText(findTestObject(""Object Repository/orderPage/modal-title-order""), ""Order Delivery"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:12,2021-09-29 13:15:13,0.329s,PASSED
+"setText(findTestObject(""Object Repository/orderPage/form-order/input-name""), name)",Chrome 93.0.4577.82,,,2021-09-29 13:15:13,2021-09-29 13:15:14,0.733s,PASSED
+"setText(findTestObject(""Object Repository/orderPage/form-order/input-address""), address)",Chrome 93.0.4577.82,,,2021-09-29 13:15:14,2021-09-29 13:15:15,1.544s,PASSED
+"click(findTestObject(""Object Repository/orderPage/form-order/input-phone""))",Chrome 93.0.4577.82,,,2021-09-29 13:15:15,2021-09-29 13:15:16,0.676s,FAILED
+,,,,,,,
+Test Cases/Add Data Member,Chrome 93.0.4577.82,,,2021-09-29 13:15:16,2021-09-29 13:15:29,13.304s,ERROR
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:16,2021-09-29 13:15:19,2.790s,PASSED
+name = name,Chrome 93.0.4577.82,,,2021-09-29 13:15:19,2021-09-29 13:15:19,0.001s,PASSED
+point = point,Chrome 93.0.4577.82,,,2021-09-29 13:15:19,2021-09-29 13:15:19,0.001s,PASSED
+"helper.helper.loginBrowser(""rocky@gmail.com"", ""rocky182"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:19,2021-09-29 13:15:23,3.787s,PASSED
+"helper.helper.addDataMember(name, point)",Chrome 93.0.4577.82,,,2021-09-29 13:15:23,2021-09-29 13:15:24,1.785s,PASSED
+"helper.helper.checkingExistingData(""Name"", name, ""Poin"", ""99"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:24,2021-09-29 13:15:29,4.723s,FAILED
+,,,,,,,
+Test Cases/TC_005_ADD Member 20 times using conditional,Chrome 93.0.4577.82,"if number is even ,name = Susan
+if number is odd , name = Jaka
+if number % 5 = 0 , point = number * 5
+if  number % 3 = 0 , point = number * 3
+if number % 4 = 0 , point = number * 4
+else 
+point = number",,2021-09-29 13:15:29,2021-09-29 13:15:39,10.186s,ERROR
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:29,2021-09-29 13:15:33,3.573s,PASSED
+"helper.helper.loginBrowser(""rocky@gmail.com"", ""rocky182"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:33,2021-09-29 13:15:37,4.547s,PASSED
+maxLoop = 20,Chrome 93.0.4577.82,,,2021-09-29 13:15:37,2021-09-29 13:15:37,0.001s,PASSED
+"name = """"",Chrome 93.0.4577.82,,,2021-09-29 13:15:37,2021-09-29 13:15:37,0.001s,PASSED
+point = 0,Chrome 93.0.4577.82,,,2021-09-29 13:15:37,2021-09-29 13:15:37,0.001s,PASSED
+"for ([i = 1, i <= maxLoop, (i++)])",Chrome 93.0.4577.82,,,2021-09-29 13:15:37,2021-09-29 13:15:39,1.804s,ERROR
+,,,,,,,
+Test Cases/TC_006_Delete_Data,Chrome 93.0.4577.82,,,2021-09-29 13:15:39,2021-09-29 13:15:43,3.947s,ERROR
+memberList = tmpData,Chrome 93.0.4577.82,,,2021-09-29 13:15:39,2021-09-29 13:15:39,0.002s,PASSED
+for (def data : memberList),Chrome 93.0.4577.82,,,2021-09-29 13:15:39,2021-09-29 13:15:43,3.765s,FAILED
+,,,,,,,
+Test Cases/add data using excel test data,Chrome 93.0.4577.82,,,2021-09-29 13:15:43,2021-09-29 13:15:52,9.264s,ERROR
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:43,2021-09-29 13:15:46,2.464s,PASSED
+"helper.helper.loginBrowser(""rocky@gmail.com"", ""rocky182"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:46,2021-09-29 13:15:50,4.305s,PASSED
+"dataExcel = findTestData(""ExcelData"")",Chrome 93.0.4577.82,,,2021-09-29 13:15:50,2021-09-29 13:15:51,0.475s,PASSED
+"excelRowNumber = findTestData(""ExcelData"").getRowNumbers()",Chrome 93.0.4577.82,,,2021-09-29 13:15:51,2021-09-29 13:15:51,0.039s,PASSED
+"for ([rowCounter = 1, rowCounter < excelRowNumber, (rowCounter++)])",Chrome 93.0.4577.82,,,2021-09-29 13:15:51,2021-09-29 13:15:52,1.762s,ERROR

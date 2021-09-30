@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenario_indocyber" time="366.832" tests="2" failures="0" errors="1">
+   <testsuite name="Scenario_indocyber" tests="2" failures="0" errors="1" time="366.832" skipped="0" timestamp="2021-09-26 16:54:58" hostname="rocky - MSI" id="Test Suites/Scenario_indocyber">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\playground\\testing\\indocyberv2katalon\\Reports\\20210926_165447\\Scenario_indocyber\\20210926_165447"/>
+         <property name="logFiles" value="D:\\playground\\testing\\indocyberv2katalon\\Reports\\20210926_165447\\Scenario_indocyber\\20210926_165447\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rocky - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 93.0.4577.82"/>
+         <property name="hostAddress" value="192.168.0.113"/>
+         <property name="sessionId" value="c7589ae810d9777af6e3f69f51bdfc7c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_005_ADD Member 20 times using conditional" time="297.751" classname="Test Cases/TC_005_ADD Member 20 times using conditional" status="PASSED">
+         <system-out><![CDATA[2021-09-26 16:54:58 - [TEST_CASE][PASSED] - Test Cases/TC_005_ADD Member 20 times using conditional: Test Cases/TC_005_ADD Member 20 times using conditional
+
+2021-09-26 16:54:59 - [TEST_STEP][PASSED] - openBrowser("http://116.254.100.222:81/login"): Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-09-26 16:54:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-26 16:54:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-26 16:55:02 - [MESSAGE][PASSED] - Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-09-26 16:55:02 - [TEST_STEP][PASSED] - helper.helper.loginBrowser("rocky@gmail.com", "rocky182"): helper.helper.loginBrowser is PASSED
+
+2021-09-26 16:55:03 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-09-26 16:55:05 - [MESSAGE][PASSED] - Text 'rocky182' is set on object 'Object Repository/loginpage/input_password'
+
+2021-09-26 16:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-09-26 16:55:07 - [MESSAGE][PASSED] - helper.helper.loginBrowser is PASSED
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - maxLoop = 20: null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - name = "": null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - point = 0: null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - for ([i = 1, i <= maxLoop, (i++)]): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:55:07 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:08 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:55:09 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:55:09 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:09 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:14 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:55:14 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:14 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:55:15 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:55:16 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:16 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:21 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:21 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:55:21 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:21 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:55:21 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:55:21 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:21 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 16:55:21 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:22 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:55:23 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:55:23 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:23 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:28 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:28 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:28 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:55:29 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:55:29 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:29 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 16:55:29 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:29 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:55:30 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:55:31 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:31 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:37 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - else if (i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - point = i * 5: null
+
+2021-09-26 16:55:37 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:37 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:55:38 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:55:38 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:38 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:44 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:44 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:44 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:55:44 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:55:44 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 16:55:44 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:44 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 16:55:44 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:45 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:55:46 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:55:46 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:46 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:53 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:55:53 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:53 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:55:54 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:55:55 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:55:55 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:01 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:01 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:01 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:56:01 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:56:01 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:01 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 16:56:01 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:02 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:56:03 - [MESSAGE][PASSED] - Text '32' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:56:04 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:04 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:10 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:10 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:56:10 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:10 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:56:10 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:56:10 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:10 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 16:56:10 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:11 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:56:12 - [MESSAGE][PASSED] - Text '27' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:56:13 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:13 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:20 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - else if (i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - point = i * 5: null
+
+2021-09-26 16:56:20 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:21 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:56:22 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:56:22 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:22 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:30 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:56:30 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:31 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:56:32 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:56:32 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:32 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:40 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:40 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:40 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:56:40 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:56:40 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:40 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 16:56:40 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:41 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:56:42 - [MESSAGE][PASSED] - Text '48' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:56:42 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:42 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:50 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:50 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:56:50 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:50 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:56:50 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:56:51 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:56:51 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:56:51 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:56:51 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:56:51 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:51 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:56:52 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:56:53 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:56:53 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:01 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:57:01 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:02 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:57:02 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:57:03 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:03 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:12 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:12 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:57:12 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:12 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:57:12 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:12 - [TEST_STEP][PASSED] - point = i * 3 * 5: null
+
+2021-09-26 16:57:12 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:12 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:57:13 - [MESSAGE][PASSED] - Text '225' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:57:14 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:14 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:23 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:23 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:23 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:57:23 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:57:23 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:23 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 16:57:23 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:24 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:57:25 - [MESSAGE][PASSED] - Text '64' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:57:26 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:26 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:35 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:57:35 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:36 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:57:37 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:57:37 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:37 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:47 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:47 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:47 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:57:47 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 16:57:47 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 16:57:47 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:57:47 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 16:57:47 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:48 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:57:49 - [MESSAGE][PASSED] - Text '54' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:57:50 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:57:50 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:00 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 16:58:00 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:58:01 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:58:02 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:58:02 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:58:02 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:42 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:42 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:42 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 16:58:42 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:58:42 - [TEST_STEP][PASSED] - point = i * 4 * 5: null
+
+2021-09-26 16:58:42 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 16:58:46 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 16:58:50 - [MESSAGE][PASSED] - Text '400' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 16:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 16:58:52 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 16:58:52 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:59:56 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 16:59:56 - [TEST_STEP][PASSED] - println(tmpData): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006_Delete_Data" time="67.869" classname="Test Cases/TC_006_Delete_Data" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)
+"/>
+         <system-out><![CDATA[2021-09-26 16:59:56 - [TEST_CASE][ERROR] - Test Cases/TC_006_Delete_Data: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)
+
+
+2021-09-26 16:59:56 - [TEST_STEP][PASSED] - memberList = tmpData: null
+
+2021-09-26 16:59:56 - [TEST_STEP][ERROR] - for (def data : memberList): Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)
+
+
+2021-09-26 16:59:56 - [TEST_STEP][PASSED] - helper.helper.deleteDataMember(data[0], data[1]): helper.helper.deleteDataMember is PASSED
+
+2021-09-26 17:00:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-09-26 17:00:26 - [MESSAGE][PASSED] - Alert accepted
+
+2021-09-26 17:01:04 - [MESSAGE][PASSED] - helper.helper.deleteDataMember is PASSED
+
+2021-09-26 17:01:04 - [TEST_STEP][ERROR] - tmpData.remove(data): Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)
+
+
+2021-09-26 17:01:04 - [MESSAGE][ERROR] - Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)]]></system-out>
+         <system-err><![CDATA[2021-09-26 16:59:56 - [TEST_CASE][ERROR] - Test Cases/TC_006_Delete_Data: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-26 16:54:58 - [TEST_SUITE][ERROR] - Scenario_indocyber: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-09-26 16:54:58 - [TEST_SUITE][ERROR] - Scenario_indocyber: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+java.util.ConcurrentModificationException
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1632650087666.run(TempTestSuite1632650087666.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

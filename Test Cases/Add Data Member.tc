@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Data Member</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>319bcf85-839d-4434-ac9d-be7aa4634821</testCaseGuid>
+   <variable>
+      <defaultValue>'Susan'</defaultValue>
+      <description></description>
+      <id>ae2324f1-b336-4126-8f14-730401659cad</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>4855cd97-56b1-4720-b832-9f4f5f5e9814</id>
+      <masked>false</masked>
+      <name>point</name>
+   </variable>
+</TestCaseEntity>

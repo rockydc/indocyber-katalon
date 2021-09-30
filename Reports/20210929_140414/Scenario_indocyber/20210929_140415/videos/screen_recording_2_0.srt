@@ -1,0 +1,56 @@
+1
+00:00:00,211 --> 00:00:02,544
+1. openBrowser("http://116.254.100.222:81/login")
+
+2
+00:00:02,545 --> 00:00:06,318
+5. helper.helper.loginBrowser("rocky@gmail.com", "rocky182")
+
+3
+00:00:06,319 --> 00:00:07,323
+9. click(findTestObject("Object Repository/dashboard/transaction-menu"))
+
+4
+00:00:07,323 --> 00:00:07,772
+13. scrollToElement(findTestObject("Object Repository/orderPage/orderAction_btn"), 1)
+
+5
+00:00:07,773 --> 00:00:08,126
+17. click(findTestObject("Object Repository/orderPage/orderAction_btn"))
+
+6
+00:00:08,127 --> 00:00:08,777
+21. verifyElementPresent(findTestObject("Object Repository/orderPage/modal-content"), 1)
+
+7
+00:00:08,777 --> 00:00:09,119
+25. click(findTestObject("Object Repository/orderPage/btn-nasi"))
+
+8
+00:00:09,131 --> 00:00:09,898
+29. verifyElementPresent(findTestObject("Object Repository/orderPage/modal-cat-nasi"), 1)
+
+9
+00:00:09,899 --> 00:00:10,250
+33. click(findTestObject("Object Repository/orderPage/btn-nasi-goreng"))
+
+10
+00:00:10,251 --> 00:00:10,989
+37. verifyElementPresent(findTestObject("Object Repository/orderPage/Modal-order"), 1)
+
+11
+00:00:10,990 --> 00:00:11,313
+41. verifyElementText(findTestObject("Object Repository/orderPage/modal-title-order"), "Order Delivery")
+
+12
+00:00:11,313 --> 00:00:11,954
+45. setText(findTestObject("Object Repository/orderPage/form-order/input-name"), name)
+
+13
+00:00:11,954 --> 00:00:13,463
+49. setText(findTestObject("Object Repository/orderPage/form-order/input-address"), address)
+
+14
+00:00:13,465 --> 00:00:14,075
+53. click(findTestObject("Object Repository/orderPage/form-order/input-phone"))
+

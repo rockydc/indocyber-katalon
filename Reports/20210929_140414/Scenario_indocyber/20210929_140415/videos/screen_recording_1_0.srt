@@ -1,0 +1,28 @@
+1
+00:00:00,255 --> 00:00:02,509
+1. openBrowser("")
+
+2
+00:00:02,515 --> 00:00:04,726
+5. navigateToUrl("http://116.254.100.222:81/login")
+
+3
+00:00:04,727 --> 00:00:05,475
+9. setText(findTestObject("loginpage/input-email"), email)
+
+4
+00:00:05,476 --> 00:00:06,138
+13. setText(findTestObject("loginpage/input_password"), password)
+
+5
+00:00:06,139 --> 00:00:10,231
+17. click(findTestObject("loginpage/btn-login"))
+
+6
+00:00:10,231 --> 00:00:11,167
+21. click(findTestObject("dashboard/btn-logout"))
+
+7
+00:00:11,167 --> 00:00:11,861
+25. closeBrowser()
+

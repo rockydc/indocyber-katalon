@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenario_indocyber" time="171.364" tests="2" failures="0" errors="0">
+   <testsuite name="Scenario_indocyber" tests="2" failures="0" errors="0" time="171.364" skipped="0" timestamp="2021-09-26 14:41:59" hostname="rocky - MSI" id="Test Suites/Scenario_indocyber">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\playground\\testing\\indocyberv2katalon\\Reports\\20210926_144147\\Scenario_indocyber\\20210926_144147"/>
+         <property name="logFiles" value="D:\\playground\\testing\\indocyberv2katalon\\Reports\\20210926_144147\\Scenario_indocyber\\20210926_144147\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rocky - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 93.0.4577.82"/>
+         <property name="hostAddress" value="192.168.0.113"/>
+         <property name="sessionId" value="d03559f67146af9f32e567a43bcea6f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_005_ADD Member 20 times using conditional" time="170.031" classname="Test Cases/TC_005_ADD Member 20 times using conditional" status="PASSED">
+         <system-out><![CDATA[2021-09-26 14:41:59 - [TEST_CASE][PASSED] - Test Cases/TC_005_ADD Member 20 times using conditional: Test Cases/TC_005_ADD Member 20 times using conditional
+
+2021-09-26 14:41:59 - [TEST_STEP][PASSED] - openBrowser("http://116.254.100.222:81/login"): Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-09-26 14:41:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-26 14:41:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-26 14:42:02 - [MESSAGE][PASSED] - Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-09-26 14:42:02 - [TEST_STEP][PASSED] - helper.helper.loginBrowser("rocky@gmail.com", "rocky182"): helper.helper.loginBrowser is PASSED
+
+2021-09-26 14:42:03 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-09-26 14:42:04 - [MESSAGE][PASSED] - Text 'rocky182' is set on object 'Object Repository/loginpage/input_password'
+
+2021-09-26 14:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-09-26 14:42:06 - [MESSAGE][PASSED] - helper.helper.loginBrowser is PASSED
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - maxLoop = 20: null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - name = "": null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - point = 0: null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - for ([i = 1, i <= maxLoop, (i++)]): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:42:06 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:07 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:08 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:08 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:08 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:12 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:42:12 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:13 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:13 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:14 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:14 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:18 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:18 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:42:18 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:18 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:42:18 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:18 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:18 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 14:42:18 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:18 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:19 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:19 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:19 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:24 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:24 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:24 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:42:24 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:24 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:24 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 14:42:24 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:24 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:25 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:25 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:25 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:30 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - else if (i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - point = i * 5: null
+
+2021-09-26 14:42:30 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:31 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:31 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:32 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:32 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:36 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:36 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:36 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:42:36 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:36 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 14:42:36 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:36 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 14:42:36 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:37 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:38 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:38 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:38 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:43 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:42:43 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:44 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:45 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:45 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:45 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:50 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:50 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:50 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:42:50 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:50 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:50 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 14:42:50 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:51 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:52 - [MESSAGE][PASSED] - Text '32' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:52 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:52 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:58 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:58 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:42:58 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:58 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:42:58 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:42:58 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:42:58 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 14:42:58 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:58 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:42:59 - [MESSAGE][PASSED] - Text '27' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:42:59 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:42:59 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:05 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - else if (i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - point = i * 5: null
+
+2021-09-26 14:43:05 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:06 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:43:07 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:43:07 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:07 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:13 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:43:13 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:14 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:43:15 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:43:15 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:15 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:22 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:22 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:22 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:43:22 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:43:22 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:22 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 14:43:22 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:22 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:43:23 - [MESSAGE][PASSED] - Text '48' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:43:23 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:23 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:30 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:43:30 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:31 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:43:31 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:43:32 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:32 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:39 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:43:39 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:40 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:43:40 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:43:41 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:41 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:48 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:48 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:43:48 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:48 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:43:48 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:48 - [TEST_STEP][PASSED] - point = i * 3 * 5: null
+
+2021-09-26 14:43:48 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:49 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:43:49 - [MESSAGE][PASSED] - Text '225' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:43:50 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:50 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:58 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:58 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:58 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:43:58 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:43:58 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:43:58 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-09-26 14:43:58 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:58 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:43:59 - [MESSAGE][PASSED] - Text '64' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:43:59 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:43:59 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:07 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:44:07 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:08 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:44:08 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:44:09 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:09 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:17 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:17 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:17 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:44:17 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-09-26 14:44:17 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-09-26 14:44:17 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:17 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-09-26 14:44:17 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:18 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:44:19 - [MESSAGE][PASSED] - Text '54' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:44:19 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:19 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:27 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - point = i: null
+
+2021-09-26 14:44:27 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:28 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:44:29 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:44:29 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:29 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:38 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:38 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:38 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-09-26 14:44:38 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:38 - [TEST_STEP][PASSED] - point = i * 4 * 5: null
+
+2021-09-26 14:44:38 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:39 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-09-26 14:44:39 - [MESSAGE][PASSED] - Text '400' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-09-26 14:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-09-26 14:44:40 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-09-26 14:44:40 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData(name, point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:49 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-09-26 14:44:49 - [TEST_STEP][PASSED] - println(tmpData): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006_Delete_Data" time="0.16" classname="Test Cases/TC_006_Delete_Data" status="PASSED">
+         <system-out><![CDATA[2021-09-26 14:44:49 - [TEST_CASE][PASSED] - Test Cases/TC_006_Delete_Data: Test Cases/TC_006_Delete_Data
+
+2021-09-26 14:44:49 - [TEST_STEP][PASSED] - println(tmpData): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-26 14:41:59 - [TEST_SUITE][PASSED] - Scenario_indocyber: Test Cases/TC_006_Delete_Data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
