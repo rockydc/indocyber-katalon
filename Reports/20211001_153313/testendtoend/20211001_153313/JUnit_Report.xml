@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testendtoend" time="253.127" tests="6" failures="0" errors="1">
+   <testsuite name="pengetesan add member" tests="4" failures="0" errors="1" time="194.561" skipped="0" timestamp="2021-10-01 15:33:29" hostname="rocky - MSI" id="Test Suites/pengetesan add member">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\playground\\testing\\indocyber-katalon\\Reports\\20211001_153313\\pengetesan add member\\20211001_153314"/>
+         <property name="logFiles" value="D:\\playground\\testing\\indocyber-katalon\\Reports\\20211001_153313\\pengetesan add member\\20211001_153314\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rocky - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.61"/>
+         <property name="hostAddress" value="192.168.0.113"/>
+         <property name="sessionId" value="3ec0ab0aa398c39cadf53a9da0fb423a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_005_ADD Member 20 times using conditional" time="151.579" classname="Test Cases/TC_005_ADD Member 20 times using conditional" status="PASSED">
+         <system-out><![CDATA[2021-10-01 15:33:29 - [TEST_CASE][PASSED] - Test Cases/TC_005_ADD Member 20 times using conditional: Test Cases/TC_005_ADD Member 20 times using conditional
+
+2021-10-01 15:33:30 - [TEST_STEP][PASSED] - openBrowser("http://116.254.100.222:81/login"): Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:33:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-01 15:33:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-01 15:33:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:33:33 - [TEST_STEP][PASSED] - helper.helper.loginBrowser("rocky@gmail.com", "Test1234"): helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:33:34 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:33:34 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:33:36 - [MESSAGE][PASSED] - helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - maxLoop = 20: null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - name = "": null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - point = 0: null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - for ([i = 1, i <= maxLoop, (i++)]): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:33:36 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:37 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:33:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:33:38 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:38 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:42 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:33:42 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:42 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:33:43 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:33:43 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:43 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:47 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:47 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:33:47 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:47 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:33:47 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:33:47 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:47 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-10-01 15:33:47 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:48 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:33:48 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:33:48 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:48 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:53 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:53 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:53 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:33:53 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:33:53 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:53 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-10-01 15:33:53 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:53 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:33:54 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:33:54 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:54 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:58 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - else if (i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - point = i * 5: null
+
+2021-10-01 15:33:58 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:33:59 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:33:59 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:00 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:00 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:03 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:03 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:03 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:34:03 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:03 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-10-01 15:34:03 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:03 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-10-01 15:34:03 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:03 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:04 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:04 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:04 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:09 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:34:09 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:09 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:10 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:10 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:10 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:15 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:15 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:15 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:34:15 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:15 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:15 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-10-01 15:34:15 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:16 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:16 - [MESSAGE][PASSED] - Text '32' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:17 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:17 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:22 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:22 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:34:22 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:22 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:34:22 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:22 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:22 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-10-01 15:34:22 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:22 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:23 - [MESSAGE][PASSED] - Text '27' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:23 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:23 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:29 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - else if (i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - point = i * 5: null
+
+2021-10-01 15:34:29 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:29 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:30 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:30 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:30 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:36 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:34:36 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:37 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:37 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:37 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:37 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:43 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:43 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:43 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:34:43 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:43 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:43 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-10-01 15:34:43 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:44 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:44 - [MESSAGE][PASSED] - Text '48' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:45 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:45 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:51 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:34:51 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:52 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:34:52 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:34:52 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:52 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:59 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:34:59 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:34:59 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:35:00 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:35:00 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:00 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:07 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:07 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:35:07 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:07 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:35:07 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:07 - [TEST_STEP][PASSED] - point = i * 3 * 5: null
+
+2021-10-01 15:35:07 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:08 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:35:08 - [MESSAGE][PASSED] - Text '225' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:35:08 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:08 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:15 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:15 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:15 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:35:15 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:35:15 - [TEST_STEP][PASSED] - else if (i % 4 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:15 - [TEST_STEP][PASSED] - point = i * 4: null
+
+2021-10-01 15:35:15 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:16 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:35:16 - [MESSAGE][PASSED] - Text '64' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:35:17 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:17 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:24 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:35:24 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:25 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:35:25 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:35:25 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:25 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:33 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:33 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:33 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:35:33 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): null
+
+2021-10-01 15:35:33 - [TEST_STEP][PASSED] - else if (i % 4 == 0): null
+
+2021-10-01 15:35:33 - [TEST_STEP][PASSED] - else if (i % 3 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:33 - [TEST_STEP][PASSED] - point = i * 3: null
+
+2021-10-01 15:35:33 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:33 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:35:34 - [MESSAGE][PASSED] - Text '54' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:35:34 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:34 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:42 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - if (i % 2 == 0): null
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - name = "Susan": null
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - if (i % 3 == 0 && i % 5 == 0): null
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - else if (i % 3 == 0): null
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - else if (i % 5 == 0): null
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - else: helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - point = i: null
+
+2021-10-01 15:35:42 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:42 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:35:43 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:35:43 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:43 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:51 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:51 - [TEST_STEP][PASSED] - if (i % 2 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:51 - [TEST_STEP][PASSED] - name = "Jaka": null
+
+2021-10-01 15:35:51 - [TEST_STEP][PASSED] - if (i % 4 == 0 && i % 5 == 0): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:35:51 - [TEST_STEP][PASSED] - point = i * 4 * 5: null
+
+2021-10-01 15:35:51 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point.toString()): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:52 - [MESSAGE][PASSED] - Text 'Jaka' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:35:52 - [MESSAGE][PASSED] - Text '400' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:35:53 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:35:53 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point.toString()): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:01 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Data Member" time="10.988" classname="Test Cases/Add Data Member" status="PASSED">
+         <system-out><![CDATA[2021-10-01 15:36:01 - [TEST_CASE][PASSED] - Test Cases/Add Data Member: Test Cases/Add Data Member
+
+2021-10-01 15:36:01 - [TEST_STEP][PASSED] - openBrowser("http://116.254.100.222:81/login"): Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:36:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-01 15:36:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-01 15:36:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-01 15:36:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:36:04 - [TEST_STEP][PASSED] - name = name: null
+
+2021-10-01 15:36:04 - [TEST_STEP][PASSED] - point = point: null
+
+2021-10-01 15:36:04 - [TEST_STEP][PASSED] - helper.helper.loginBrowser("rocky@gmail.com", "Test1234"): helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:36:04 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:36:05 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:36:07 - [MESSAGE][PASSED] - helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:36:07 - [TEST_STEP][PASSED] - helper.helper.addDataMember(name, point): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:07 - [MESSAGE][PASSED] - Text 'Susan' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:36:08 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:36:08 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:08 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", name, "Poin", point): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:12 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006_Delete_Data" time="3.119" classname="Test Cases/TC_006_Delete_Data" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)
+Caused by: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	... 16 more
+"/>
+         <system-out><![CDATA[2021-10-01 15:36:12 - [TEST_CASE][ERROR] - Test Cases/TC_006_Delete_Data: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)
+Caused by: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	... 16 more
+
+
+2021-10-01 15:36:12 - [TEST_STEP][PASSED] - memberList = tmpData: null
+
+2021-10-01 15:36:12 - [TEST_STEP][FAILED] - for (def data : memberList): Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)
+
+
+2021-10-01 15:36:12 - [TEST_STEP][FAILED] - helper.helper.deleteDataMember(data[0], data[1]): Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)
+
+
+2021-10-01 15:36:15 - [MESSAGE][FAILED] - Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+
+2021-10-01 15:36:15 - [MESSAGE][FAILED] - Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)]]></system-out>
+         <system-err><![CDATA[2021-10-01 15:36:12 - [TEST_CASE][ERROR] - Test Cases/TC_006_Delete_Data: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)
+Caused by: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	... 16 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add data using excel test data" time="27.735" classname="Test Cases/add data using excel test data" status="PASSED">
+         <system-out><![CDATA[2021-10-01 15:36:15 - [TEST_CASE][PASSED] - Test Cases/add data using excel test data: Test Cases/add data using excel test data
+
+2021-10-01 15:36:15 - [TEST_STEP][PASSED] - openBrowser("http://116.254.100.222:81/login"): Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:36:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-01 15:36:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-01 15:36:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-01 15:36:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:36:17 - [TEST_STEP][PASSED] - helper.helper.loginBrowser(username, password): helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:36:18 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:36:19 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:36:21 - [MESSAGE][PASSED] - helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:36:21 - [TEST_STEP][PASSED] - dataExcel = findTestData("ExcelData"): null
+
+2021-10-01 15:36:21 - [TEST_STEP][PASSED] - excelRowNumber = findTestData("ExcelData").getRowNumbers(): null
+
+2021-10-01 15:36:21 - [TEST_STEP][PASSED] - for ([rowCounter = 1, rowCounter < excelRowNumber, (rowCounter++)]): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:21 - [TEST_STEP][PASSED] - getName = dataExcel.getValue("Nama", rowCounter): null
+
+2021-10-01 15:36:21 - [TEST_STEP][PASSED] - getJob = dataExcel.getValue("Job", rowCounter): null
+
+2021-10-01 15:36:21 - [TEST_STEP][PASSED] - getPoint = dataExcel.getValue("No", rowCounter): null
+
+2021-10-01 15:36:21 - [TEST_STEP][PASSED] - helper.helper.addDataMember(getName + "_" + getJob, getPoint): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:22 - [MESSAGE][PASSED] - Text 'Freddy_Leader' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:36:23 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:36:23 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:23 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:27 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:27 - [TEST_STEP][PASSED] - getName = dataExcel.getValue("Nama", rowCounter): null
+
+2021-10-01 15:36:27 - [TEST_STEP][PASSED] - getJob = dataExcel.getValue("Job", rowCounter): null
+
+2021-10-01 15:36:27 - [TEST_STEP][PASSED] - getPoint = dataExcel.getValue("No", rowCounter): null
+
+2021-10-01 15:36:27 - [TEST_STEP][PASSED] - helper.helper.addDataMember(getName + "_" + getJob, getPoint): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:27 - [MESSAGE][PASSED] - Text 'Rizky_Programmer' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:36:28 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:36:28 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:28 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:32 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:32 - [TEST_STEP][PASSED] - getName = dataExcel.getValue("Nama", rowCounter): null
+
+2021-10-01 15:36:32 - [TEST_STEP][PASSED] - getJob = dataExcel.getValue("Job", rowCounter): null
+
+2021-10-01 15:36:32 - [TEST_STEP][PASSED] - getPoint = dataExcel.getValue("No", rowCounter): null
+
+2021-10-01 15:36:32 - [TEST_STEP][PASSED] - helper.helper.addDataMember(getName + "_" + getJob, getPoint): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:32 - [MESSAGE][PASSED] - Text 'Alfred_System Analyst' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:36:33 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:36:33 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:33 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:37 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:37 - [TEST_STEP][PASSED] - getName = dataExcel.getValue("Nama", rowCounter): null
+
+2021-10-01 15:36:37 - [TEST_STEP][PASSED] - getJob = dataExcel.getValue("Job", rowCounter): null
+
+2021-10-01 15:36:37 - [TEST_STEP][PASSED] - getPoint = dataExcel.getValue("No", rowCounter): null
+
+2021-10-01 15:36:37 - [TEST_STEP][PASSED] - helper.helper.addDataMember(getName + "_" + getJob, getPoint): helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:38 - [MESSAGE][PASSED] - Text 'Faiz_Quality Assurance' is set on object 'Object Repository/dashboard/form-sample-page/input-name'
+
+2021-10-01 15:36:38 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/dashboard/form-sample-page/input-point'
+
+2021-10-01 15:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/form-sample-page/btn-submit' is clicked on
+
+2021-10-01 15:36:38 - [MESSAGE][PASSED] - helper.helper.addDataMember is PASSED
+
+2021-10-01 15:36:38 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", getName + "_" + getJob, "Poin", getPoint): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:36:43 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-01 15:33:29 - [TEST_SUITE][ERROR] - pengetesan add member: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)
+Caused by: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	... 16 more]]></system-out>
+      <system-err><![CDATA[2021-10-01 15:33:29 - [TEST_SUITE][ERROR] - pengetesan add member: Test Cases/TC_006_Delete_Data FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.invokeMethod(helper.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_006_Delete_Data.run(TC_006_Delete_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1633077194858.run(TempTestSuite1633077194858.groovy:36)
+Caused by: Assertion failed: 
+
+assert isExist == false
+       |       |
+       true    false
+
+	at helper.helper.deleteDataMember(helper.groovy:197)
+	... 16 more]]></system-err>
+   </testsuite>
+   <testsuite name="test login - order" tests="2" failures="0" errors="0" time="26.934" skipped="0" timestamp="2021-10-01 15:37:06" hostname="rocky - MSI" id="Test Suites/test login - order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\playground\\testing\\indocyber-katalon\\Reports\\20211001_153313\\test login - order\\20211001_153316"/>
+         <property name="logFiles" value="D:\\playground\\testing\\indocyber-katalon\\Reports\\20211001_153313\\test login - order\\20211001_153316\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rocky - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.61"/>
+         <property name="hostAddress" value="192.168.0.113"/>
+         <property name="sessionId" value="2178371f4a9a4b525874029c3feacc14"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login - Logout" time="8.075" classname="Test Cases/Login - Logout" status="PASSED">
+         <system-out><![CDATA[2021-10-01 15:37:06 - [TEST_CASE][PASSED] - Test Cases/Login - Logout: Test Cases/Login - Logout
+
+2021-10-01 15:37:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-01 15:37:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-01 15:37:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-01 15:37:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-01 15:37:09 - [TEST_STEP][PASSED] - navigateToUrl("http://116.254.100.222:81/login"): Navigate to 'http://116.254.100.222:81/login' successfully
+
+2021-10-01 15:37:09 - [MESSAGE][PASSED] - Navigate to 'http://116.254.100.222:81/login' successfully
+
+2021-10-01 15:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("loginpage/input-email"), username): Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:37:10 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:37:10 - [TEST_STEP][PASSED] - setText(findTestObject("loginpage/input_password"), password): Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:37:11 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:37:11 - [TEST_STEP][PASSED] - click(findTestObject("loginpage/btn-login")): Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:37:13 - [TEST_STEP][PASSED] - click(findTestObject("dashboard/btn-logout")): Object: 'Object Repository/dashboard/btn-logout' is clicked on
+
+2021-10-01 15:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/btn-logout' is clicked on
+
+2021-10-01 15:37:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-01 15:37:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/order-menu" time="17.745" classname="Test Cases/order-menu" status="PASSED">
+         <system-out><![CDATA[2021-10-01 15:37:14 - [TEST_CASE][PASSED] - Test Cases/order-menu: Test Cases/order-menu
+
+2021-10-01 15:37:15 - [TEST_STEP][PASSED] - openBrowser("http://116.254.100.222:81/login"): Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:37:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-01 15:37:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-01 15:37:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:37:16 - [TEST_STEP][PASSED] - helper.helper.loginBrowser(username, password): helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:37:17 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:37:18 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:37:20 - [MESSAGE][PASSED] - helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dashboard/transaction-menu")): Object: 'Object Repository/dashboard/transaction-menu' is clicked on
+
+2021-10-01 15:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/transaction-menu' is clicked on
+
+2021-10-01 15:37:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/orderPage/orderAction_btn"), 1): Scroll to object 'Object Repository/orderPage/orderAction_btn' successfully
+
+2021-10-01 15:37:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/orderPage/orderAction_btn' successfully
+
+2021-10-01 15:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/orderAction_btn")): Object: 'Object Repository/orderPage/orderAction_btn' is clicked on
+
+2021-10-01 15:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/orderAction_btn' is clicked on
+
+2021-10-01 15:37:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/orderPage/modal-content"), 1): Object 'Object Repository/orderPage/modal-content' is present
+
+2021-10-01 15:37:22 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/modal-content' is present
+
+2021-10-01 15:37:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/btn-nasi")): Object: 'Object Repository/orderPage/btn-nasi' is clicked on
+
+2021-10-01 15:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/btn-nasi' is clicked on
+
+2021-10-01 15:37:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/orderPage/modal-cat-nasi"), 1): Object 'Object Repository/orderPage/modal-cat-nasi' is present
+
+2021-10-01 15:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/modal-cat-nasi' is present
+
+2021-10-01 15:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/btn-nasi-goreng")): Object: 'Object Repository/orderPage/btn-nasi-goreng' is clicked on
+
+2021-10-01 15:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/btn-nasi-goreng' is clicked on
+
+2021-10-01 15:37:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/orderPage/Modal-order"), 1): Object 'Object Repository/orderPage/Modal-order' is present
+
+2021-10-01 15:37:24 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/Modal-order' is present
+
+2021-10-01 15:37:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/orderPage/modal-title-order"), "Order Delivery"): Actual text and expected text of test object 'Object Repository/orderPage/modal-title-order' are matched.
+
+2021-10-01 15:37:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/orderPage/modal-title-order' are matched.
+
+2021-10-01 15:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/orderPage/form-order/input-name"), "rocky"): Text 'rocky' is set on object 'Object Repository/orderPage/form-order/input-name'
+
+2021-10-01 15:37:25 - [MESSAGE][PASSED] - Text 'rocky' is set on object 'Object Repository/orderPage/form-order/input-name'
+
+2021-10-01 15:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/orderPage/form-order/input-address"), "jalan bacok"): Text 'jalan bacok' is set on object 'Object Repository/orderPage/form-order/input-address'
+
+2021-10-01 15:37:25 - [MESSAGE][PASSED] - Text 'jalan bacok' is set on object 'Object Repository/orderPage/form-order/input-address'
+
+2021-10-01 15:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/orderPage/form-order/phone-input"), "0813920443"): Text '0813920443' is set on object 'Object Repository/orderPage/form-order/phone-input'
+
+2021-10-01 15:37:26 - [MESSAGE][PASSED] - Text '0813920443' is set on object 'Object Repository/orderPage/form-order/phone-input'
+
+2021-10-01 15:37:26 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/orderPage/form-order/input-order"), "value", "Nasi Goreng", 1): Object 'Object Repository/orderPage/form-order/input-order' has attribute 'value' with value 'Nasi Goreng'
+
+2021-10-01 15:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/form-order/input-order' has attribute 'value' with value 'Nasi Goreng'
+
+2021-10-01 15:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/form-order/btn-submit"), STOP_ON_FAILURE): Object: 'Object Repository/orderPage/form-order/btn-submit' is clicked on
+
+2021-10-01 15:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/form-order/btn-submit' is clicked on
+
+2021-10-01 15:37:27 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", "rocky", "Address", "jalan bacok"): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:37:29 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:37:29 - [TEST_STEP][PASSED] - helper.helper.deleteDataMember("rocky", "jalan bacok"): helper.helper.deleteDataMember is PASSED
+
+2021-10-01 15:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-01 15:37:32 - [MESSAGE][PASSED] - Alert accepted
+
+2021-10-01 15:37:32 - [MESSAGE][PASSED] - helper.helper.deleteDataMember is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-01 15:37:06 - [TEST_SUITE][PASSED] - test login - order: Test Cases/order-menu]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

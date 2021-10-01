@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pengetesan add member,Chrome 94.0.4606.61,,,2021-10-01 15:33:29,2021-10-01 15:36:43,3m - 13.626s,ERROR
+,,,,,,,
+Test Cases/TC_005_ADD Member 20 times using conditional,Chrome 94.0.4606.61,"if number is even ,name = Susan
+if number is odd , name = Jaka
+if number % 5 = 0 , point = number * 5
+if  number % 3 = 0 , point = number * 3
+if number % 4 = 0 , point = number * 4
+else 
+point = number",,2021-10-01 15:33:29,2021-10-01 15:36:01,2m - 31.579s,PASSED
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 94.0.4606.61,,,2021-10-01 15:33:30,2021-10-01 15:33:33,3.508s,PASSED
+"helper.helper.loginBrowser(""rocky@gmail.com"", ""Test1234"")",Chrome 94.0.4606.61,,,2021-10-01 15:33:33,2021-10-01 15:33:36,3.169s,PASSED
+maxLoop = 20,Chrome 94.0.4606.61,,,2021-10-01 15:33:36,2021-10-01 15:33:36,0.001s,PASSED
+"name = """"",Chrome 94.0.4606.61,,,2021-10-01 15:33:36,2021-10-01 15:33:36,0.000s,PASSED
+point = 0,Chrome 94.0.4606.61,,,2021-10-01 15:33:36,2021-10-01 15:33:36,0.001s,PASSED
+"for ([i = 1, i <= maxLoop, (i++)])",Chrome 94.0.4606.61,,,2021-10-01 15:33:36,2021-10-01 15:36:01,2m - 24.541s,PASSED
+,,,,,,,
+Test Cases/Add Data Member,Chrome 94.0.4606.61,,,2021-10-01 15:36:01,2021-10-01 15:36:12,10.988s,PASSED
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 94.0.4606.61,,,2021-10-01 15:36:01,2021-10-01 15:36:04,2.606s,PASSED
+name = name,Chrome 94.0.4606.61,,,2021-10-01 15:36:04,2021-10-01 15:36:04,0.002s,PASSED
+point = point,Chrome 94.0.4606.61,,,2021-10-01 15:36:04,2021-10-01 15:36:04,0.001s,PASSED
+"helper.helper.loginBrowser(""rocky@gmail.com"", ""Test1234"")",Chrome 94.0.4606.61,,,2021-10-01 15:36:04,2021-10-01 15:36:07,2.937s,PASSED
+"helper.helper.addDataMember(name, point)",Chrome 94.0.4606.61,,,2021-10-01 15:36:07,2021-10-01 15:36:08,1.558s,PASSED
+"helper.helper.checkingExistingData(""Name"", name, ""Poin"", point)",Chrome 94.0.4606.61,,,2021-10-01 15:36:08,2021-10-01 15:36:12,3.703s,PASSED
+,,,,,,,
+Test Cases/TC_006_Delete_Data,Chrome 94.0.4606.61,,,2021-10-01 15:36:12,2021-10-01 15:36:15,3.119s,ERROR
+memberList = tmpData,Chrome 94.0.4606.61,,,2021-10-01 15:36:12,2021-10-01 15:36:12,0.001s,PASSED
+for (def data : memberList),Chrome 94.0.4606.61,,,2021-10-01 15:36:12,2021-10-01 15:36:15,2.929s,FAILED
+,,,,,,,
+Test Cases/add data using excel test data,Chrome 94.0.4606.61,,,2021-10-01 15:36:15,2021-10-01 15:36:43,27.735s,PASSED
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 94.0.4606.61,,,2021-10-01 15:36:15,2021-10-01 15:36:17,2.286s,PASSED
+"helper.helper.loginBrowser(username, password)",Chrome 94.0.4606.61,,,2021-10-01 15:36:17,2021-10-01 15:36:21,3.556s,PASSED
+"dataExcel = findTestData(""ExcelData"")",Chrome 94.0.4606.61,,,2021-10-01 15:36:21,2021-10-01 15:36:21,0.414s,PASSED
+"excelRowNumber = findTestData(""ExcelData"").getRowNumbers()",Chrome 94.0.4606.61,,,2021-10-01 15:36:21,2021-10-01 15:36:21,0.037s,PASSED
+"for ([rowCounter = 1, rowCounter < excelRowNumber, (rowCounter++)])",Chrome 94.0.4606.61,,,2021-10-01 15:36:21,2021-10-01 15:36:43,21.278s,PASSED

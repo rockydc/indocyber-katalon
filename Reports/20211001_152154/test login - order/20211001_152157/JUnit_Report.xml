@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test login - order" time="26.779" tests="2" failures="0" errors="0">
+   <testsuite name="test login - order" tests="2" failures="0" errors="0" time="26.779" skipped="0" timestamp="2021-10-01 15:25:57" hostname="rocky - MSI" id="Test Suites/test login - order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\playground\\testing\\indocyber-katalon\\Reports\\20211001_152154\\test login - order\\20211001_152157"/>
+         <property name="logFiles" value="D:\\playground\\testing\\indocyber-katalon\\Reports\\20211001_152154\\test login - order\\20211001_152157\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rocky - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.61"/>
+         <property name="hostAddress" value="192.168.0.113"/>
+         <property name="sessionId" value="ee9cdf893fd8edbf8a0c7d0d4ec23ff9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login - Logout" time="8.407" classname="Test Cases/Login - Logout" status="PASSED">
+         <system-out><![CDATA[2021-10-01 15:25:58 - [TEST_CASE][PASSED] - Test Cases/Login - Logout: Test Cases/Login - Logout
+
+2021-10-01 15:25:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-01 15:25:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-01 15:25:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-01 15:26:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-01 15:26:00 - [TEST_STEP][PASSED] - navigateToUrl("http://116.254.100.222:81/login"): Navigate to 'http://116.254.100.222:81/login' successfully
+
+2021-10-01 15:26:01 - [MESSAGE][PASSED] - Navigate to 'http://116.254.100.222:81/login' successfully
+
+2021-10-01 15:26:01 - [TEST_STEP][PASSED] - setText(findTestObject("loginpage/input-email"), username): Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:26:02 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:26:02 - [TEST_STEP][PASSED] - setText(findTestObject("loginpage/input_password"), password): Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:26:02 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:26:02 - [TEST_STEP][PASSED] - click(findTestObject("loginpage/btn-login")): Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:26:04 - [TEST_STEP][PASSED] - click(findTestObject("dashboard/btn-logout")): Object: 'Object Repository/dashboard/btn-logout' is clicked on
+
+2021-10-01 15:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/btn-logout' is clicked on
+
+2021-10-01 15:26:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-01 15:26:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/order-menu" time="17.281" classname="Test Cases/order-menu" status="PASSED">
+         <system-out><![CDATA[2021-10-01 15:26:06 - [TEST_CASE][PASSED] - Test Cases/order-menu: Test Cases/order-menu
+
+2021-10-01 15:26:06 - [TEST_STEP][PASSED] - openBrowser("http://116.254.100.222:81/login"): Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:26:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-01 15:26:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-01 15:26:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://116.254.100.222:81/login'
+
+2021-10-01 15:26:08 - [TEST_STEP][PASSED] - helper.helper.loginBrowser(username, password): helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:26:09 - [MESSAGE][PASSED] - Text 'rocky@gmail.com' is set on object 'Object Repository/loginpage/input-email'
+
+2021-10-01 15:26:09 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/loginpage/input_password'
+
+2021-10-01 15:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/loginpage/btn-login' is clicked on
+
+2021-10-01 15:26:12 - [MESSAGE][PASSED] - helper.helper.loginBrowser is PASSED
+
+2021-10-01 15:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/dashboard/transaction-menu")): Object: 'Object Repository/dashboard/transaction-menu' is clicked on
+
+2021-10-01 15:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/transaction-menu' is clicked on
+
+2021-10-01 15:26:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/orderPage/orderAction_btn"), 1): Scroll to object 'Object Repository/orderPage/orderAction_btn' successfully
+
+2021-10-01 15:26:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/orderPage/orderAction_btn' successfully
+
+2021-10-01 15:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/orderAction_btn")): Object: 'Object Repository/orderPage/orderAction_btn' is clicked on
+
+2021-10-01 15:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/orderAction_btn' is clicked on
+
+2021-10-01 15:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/orderPage/modal-content"), 1): Object 'Object Repository/orderPage/modal-content' is present
+
+2021-10-01 15:26:14 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/modal-content' is present
+
+2021-10-01 15:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/btn-nasi")): Object: 'Object Repository/orderPage/btn-nasi' is clicked on
+
+2021-10-01 15:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/btn-nasi' is clicked on
+
+2021-10-01 15:26:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/orderPage/modal-cat-nasi"), 1): Object 'Object Repository/orderPage/modal-cat-nasi' is present
+
+2021-10-01 15:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/modal-cat-nasi' is present
+
+2021-10-01 15:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/btn-nasi-goreng")): Object: 'Object Repository/orderPage/btn-nasi-goreng' is clicked on
+
+2021-10-01 15:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/btn-nasi-goreng' is clicked on
+
+2021-10-01 15:26:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/orderPage/Modal-order"), 1): Object 'Object Repository/orderPage/Modal-order' is present
+
+2021-10-01 15:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/Modal-order' is present
+
+2021-10-01 15:26:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/orderPage/modal-title-order"), "Order Delivery"): Actual text and expected text of test object 'Object Repository/orderPage/modal-title-order' are matched.
+
+2021-10-01 15:26:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/orderPage/modal-title-order' are matched.
+
+2021-10-01 15:26:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/orderPage/form-order/input-name"), "rocky"): Text 'rocky' is set on object 'Object Repository/orderPage/form-order/input-name'
+
+2021-10-01 15:26:17 - [MESSAGE][PASSED] - Text 'rocky' is set on object 'Object Repository/orderPage/form-order/input-name'
+
+2021-10-01 15:26:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/orderPage/form-order/input-address"), "jalan bacok"): Text 'jalan bacok' is set on object 'Object Repository/orderPage/form-order/input-address'
+
+2021-10-01 15:26:17 - [MESSAGE][PASSED] - Text 'jalan bacok' is set on object 'Object Repository/orderPage/form-order/input-address'
+
+2021-10-01 15:26:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/orderPage/form-order/phone-input"), "0813920443"): Text '0813920443' is set on object 'Object Repository/orderPage/form-order/phone-input'
+
+2021-10-01 15:26:18 - [MESSAGE][PASSED] - Text '0813920443' is set on object 'Object Repository/orderPage/form-order/phone-input'
+
+2021-10-01 15:26:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/orderPage/form-order/input-order"), "value", "Nasi Goreng", 1): Object 'Object Repository/orderPage/form-order/input-order' has attribute 'value' with value 'Nasi Goreng'
+
+2021-10-01 15:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/orderPage/form-order/input-order' has attribute 'value' with value 'Nasi Goreng'
+
+2021-10-01 15:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/orderPage/form-order/btn-submit"), STOP_ON_FAILURE): Object: 'Object Repository/orderPage/form-order/btn-submit' is clicked on
+
+2021-10-01 15:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/orderPage/form-order/btn-submit' is clicked on
+
+2021-10-01 15:26:19 - [TEST_STEP][PASSED] - helper.helper.checkingExistingData("Name", "rocky", "Address", "jalan bacok"): helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:26:20 - [MESSAGE][PASSED] - helper.helper.checkingExistingData is PASSED
+
+2021-10-01 15:26:20 - [TEST_STEP][PASSED] - helper.helper.deleteDataMember("rocky", "jalan bacok"): helper.helper.deleteDataMember is PASSED
+
+2021-10-01 15:26:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-01 15:26:23 - [MESSAGE][PASSED] - Alert accepted
+
+2021-10-01 15:26:23 - [MESSAGE][PASSED] - helper.helper.deleteDataMember is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-01 15:25:57 - [TEST_SUITE][PASSED] - test login - order: Test Cases/order-menu]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

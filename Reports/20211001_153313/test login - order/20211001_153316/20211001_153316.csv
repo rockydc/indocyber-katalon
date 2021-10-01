@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test login - order,Chrome 94.0.4606.61,,,2021-10-01 15:37:06,2021-10-01 15:37:32,26.030s,PASSED
+,,,,,,,
+Test Cases/Login - Logout,Chrome 94.0.4606.61,Scenario Login Logout,#login,2021-10-01 15:37:06,2021-10-01 15:37:14,8.075s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.61,,,2021-10-01 15:37:07,2021-10-01 15:37:09,1.955s,PASSED
+"navigateToUrl(""http://116.254.100.222:81/login"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:09,2021-10-01 15:37:09,0.631s,PASSED
+"setText(findTestObject(""loginpage/input-email""), username)",Chrome 94.0.4606.61,,,2021-10-01 15:37:09,2021-10-01 15:37:10,0.774s,PASSED
+"setText(findTestObject(""loginpage/input_password""), password)",Chrome 94.0.4606.61,,,2021-10-01 15:37:10,2021-10-01 15:37:11,0.562s,PASSED
+"click(findTestObject(""loginpage/btn-login""))",Chrome 94.0.4606.61,,,2021-10-01 15:37:11,2021-10-01 15:37:13,2.301s,PASSED
+"click(findTestObject(""dashboard/btn-logout""))",Chrome 94.0.4606.61,,,2021-10-01 15:37:13,2021-10-01 15:37:14,0.909s,PASSED
+closeBrowser(),Chrome 94.0.4606.61,,,2021-10-01 15:37:14,2021-10-01 15:37:14,0.635s,PASSED
+,,,,,,,
+Test Cases/order-menu,Chrome 94.0.4606.61,,dashboard,2021-10-01 15:37:14,2021-10-01 15:37:32,17.745s,PASSED
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:15,2021-10-01 15:37:16,1.789s,PASSED
+"helper.helper.loginBrowser(username, password)",Chrome 94.0.4606.61,,,2021-10-01 15:37:16,2021-10-01 15:37:20,3.096s,PASSED
+"click(findTestObject(""Object Repository/dashboard/transaction-menu""))",Chrome 94.0.4606.61,,,2021-10-01 15:37:20,2021-10-01 15:37:20,0.932s,PASSED
+"scrollToElement(findTestObject(""Object Repository/orderPage/orderAction_btn""), 1)",Chrome 94.0.4606.61,,,2021-10-01 15:37:20,2021-10-01 15:37:21,0.517s,PASSED
+"click(findTestObject(""Object Repository/orderPage/orderAction_btn""))",Chrome 94.0.4606.61,,,2021-10-01 15:37:21,2021-10-01 15:37:21,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/orderPage/modal-content""), 1)",Chrome 94.0.4606.61,,,2021-10-01 15:37:21,2021-10-01 15:37:22,0.593s,PASSED
+"click(findTestObject(""Object Repository/orderPage/btn-nasi""))",Chrome 94.0.4606.61,,,2021-10-01 15:37:22,2021-10-01 15:37:22,0.324s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/orderPage/modal-cat-nasi""), 1)",Chrome 94.0.4606.61,,,2021-10-01 15:37:22,2021-10-01 15:37:23,0.809s,PASSED
+"click(findTestObject(""Object Repository/orderPage/btn-nasi-goreng""))",Chrome 94.0.4606.61,,,2021-10-01 15:37:23,2021-10-01 15:37:23,0.326s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/orderPage/Modal-order""), 1)",Chrome 94.0.4606.61,,,2021-10-01 15:37:23,2021-10-01 15:37:24,0.767s,PASSED
+"verifyElementText(findTestObject(""Object Repository/orderPage/modal-title-order""), ""Order Delivery"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:24,2021-10-01 15:37:24,0.285s,PASSED
+"setText(findTestObject(""Object Repository/orderPage/form-order/input-name""), ""rocky"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:24,2021-10-01 15:37:25,0.544s,PASSED
+"setText(findTestObject(""Object Repository/orderPage/form-order/input-address""), ""jalan bacok"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:25,2021-10-01 15:37:25,0.550s,PASSED
+"setText(findTestObject(""Object Repository/orderPage/form-order/phone-input""), ""0813920443"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:25,2021-10-01 15:37:26,0.557s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/orderPage/form-order/input-order""), ""value"", ""Nasi Goreng"", 1)",Chrome 94.0.4606.61,,,2021-10-01 15:37:26,2021-10-01 15:37:26,0.277s,PASSED
+"click(findTestObject(""Object Repository/orderPage/form-order/btn-submit""), STOP_ON_FAILURE)",Chrome 94.0.4606.61,,,2021-10-01 15:37:26,2021-10-01 15:37:27,1.084s,PASSED
+"helper.helper.checkingExistingData(""Name"", ""rocky"", ""Address"", ""jalan bacok"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:27,2021-10-01 15:37:29,1.505s,PASSED
+"helper.helper.deleteDataMember(""rocky"", ""jalan bacok"")",Chrome 94.0.4606.61,,,2021-10-01 15:37:29,2021-10-01 15:37:32,3.219s,PASSED

@@ -18,24 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://116.254.100.222:81/login')
-CustomKeywords.'helper.helper.loginBrowser'('rocky@gmail.com', 'rocky182')
+
+CustomKeywords.'helper.helper.loginBrowser'(GlobalVariable.username, GlobalVariable.password)
 
 Object dataExcel = findTestData('ExcelData')
+
 Object excelRowNumber = findTestData('ExcelData').getRowNumbers()
+
 //String getName = dataExcel.getValue('Job',1)
 //println(getName)
+for (int rowCounter = 1; rowCounter < excelRowNumber; rowCounter++) {
+    'Mengambil nama dari excel'
+    String getName = dataExcel.getValue('Nama', rowCounter)
 
-for ( int rowCounter = 1; rowCounter<excelRowNumber; rowCounter++) {
-	'Mengambil nama dari excel'
-	String getName = dataExcel.getValue('Nama',rowCounter)
-	'Mengamil job dari excel'
-	String getJob = dataExcel.getValue('Job', rowCounter)
-	'Mengambil point dari id di excel'
-	String getPoint = dataExcel.getValue('No',rowCounter)
-	
+    'Mengamil job dari excel'
+    String getJob = dataExcel.getValue('Job', rowCounter)
 
-	CustomKeywords.'helper.helper.addDataMember'(getName+'_'+getJob, getPoint)
-	CustomKeywords.'helper.helper.checkingExistingData'('Name',getName+'_'+getJob,'Poin',getPoint)
+    'Mengambil point dari id di excel'
+    String getPoint = dataExcel.getValue('No', rowCounter)
+
+    CustomKeywords.'helper.helper.addDataMember'((getName + '_') + getJob, getPoint)
+
+    CustomKeywords.'helper.helper.checkingExistingData'('Name', (getName + '_') + getJob, 'Poin', getPoint)
 }
-
 

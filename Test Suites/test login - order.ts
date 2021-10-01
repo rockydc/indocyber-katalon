@@ -59,4 +59,22 @@
          <variableId>21a8e0c0-962c-49c8-87a6-2eb7a7e001d8</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>db2682d9-6513-4b0b-9765-b8f70b3b5342</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add Data Member</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae2324f1-b336-4126-8f14-730401659cad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4855cd97-56b1-4720-b832-9f4f5f5e9814</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
