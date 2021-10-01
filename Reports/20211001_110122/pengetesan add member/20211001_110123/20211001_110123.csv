@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pengetesan add member,Chrome 94.0.4606.61,,,2021-10-01 11:01:33,2021-10-01 11:06:36,5m - 3.016s,PASSED
+,,,,,,,
+Test Cases/TC_005_ADD Member 20 times using conditional,Chrome 94.0.4606.61,"if number is even ,name = Susan
+if number is odd , name = Jaka
+if number % 5 = 0 , point = number * 5
+if  number % 3 = 0 , point = number * 3
+if number % 4 = 0 , point = number * 4
+else 
+point = number",,2021-10-01 11:01:33,2021-10-01 11:04:04,2m - 31.551s,PASSED
+"openBrowser(""http://116.254.100.222:81/login"")",Chrome 94.0.4606.61,,,2021-10-01 11:01:33,2021-10-01 11:01:36,2.732s,PASSED
+"helper.helper.loginBrowser(""rocky@gmail.com"", ""Test1234"")",Chrome 94.0.4606.61,,,2021-10-01 11:01:36,2021-10-01 11:01:40,4.104s,PASSED
+maxLoop = 20,Chrome 94.0.4606.61,,,2021-10-01 11:01:40,2021-10-01 11:01:40,0.001s,PASSED
+"name = """"",Chrome 94.0.4606.61,,,2021-10-01 11:01:40,2021-10-01 11:01:40,0.000s,PASSED
+point = 0,Chrome 94.0.4606.61,,,2021-10-01 11:01:40,2021-10-01 11:01:40,0.001s,PASSED
+"for ([i = 1, i <= maxLoop, (i++)])",Chrome 94.0.4606.61,,,2021-10-01 11:01:40,2021-10-01 11:04:04,2m - 24.429s,PASSED
+,,,,,,,
+Test Cases/TC_006_Delete_Data,Chrome 94.0.4606.61,,,2021-10-01 11:04:04,2021-10-01 11:06:36,2m - 31.283s,PASSED
+memberList = tmpData,Chrome 94.0.4606.61,,,2021-10-01 11:04:05,2021-10-01 11:04:05,0.001s,PASSED
+for (def data : memberList),Chrome 94.0.4606.61,,,2021-10-01 11:04:05,2021-10-01 11:06:36,2m - 31.102s,PASSED
+tmpData = [],Chrome 94.0.4606.61,,,2021-10-01 11:06:36,2021-10-01 11:06:36,0.001s,PASSED
+println(tmpData),Chrome 94.0.4606.61,,,2021-10-01 11:06:36,2021-10-01 11:06:36,0.002s,PASSED
