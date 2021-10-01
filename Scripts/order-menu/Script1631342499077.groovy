@@ -17,12 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //Faker
 //
 WebUI.openBrowser('http://116.254.100.222:81/login')
 
-CustomKeywords.'helper.helper.loginBrowser'('rocky@gmail.com', 'rocky182')
+CustomKeywords.'helper.helper.loginBrowser'(GlobalVariable.username, GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/dashboard/transaction-menu'))
 
@@ -42,20 +41,18 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/orderPage/Modal-ord
 
 WebUI.verifyElementText(findTestObject('Object Repository/orderPage/modal-title-order'), 'Order Delivery')
 
-WebUI.setText(findTestObject('Object Repository/orderPage/form-order/input-name'), name)
+WebUI.setText(findTestObject('Object Repository/orderPage/form-order/input-name'), 'rocky')
 
-WebUI.setText(findTestObject('Object Repository/orderPage/form-order/input-address'), address)
+WebUI.setText(findTestObject('Object Repository/orderPage/form-order/input-address'), 'jalan bacok')
 
-WebUI.click(findTestObject('Object Repository/orderPage/form-order/input-phone'))
-
-WebUI.setText(findTestObject('Object Repository/orderPage/form-order/input-phone'), '0813920443')
+WebUI.setText(findTestObject('Object Repository/orderPage/form-order/phone-input'), '0813920443')
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/orderPage/form-order/input-order'), 'value', 'Nasi Goreng', 
     1)
 
 WebUI.click(findTestObject('Object Repository/orderPage/form-order/btn-submit'), FailureHandling.STOP_ON_FAILURE)
 
-existingData = CustomKeywords.'helper.helper.checkingExistingData'('Name',name,'Address',address)
+CustomKeywords.'helper.helper.checkingExistingData'('Name', 'rocky', 'Address', 'jalan bacok')
 
-existingData.equals(true)
+CustomKeywords.'helper.helper.deleteDataMember'('rocky', 'jalan bacok')
 

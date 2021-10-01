@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://116.254.100.222:81/login')
 
-WebUI.setText(findTestObject('loginpage/input-email'), email)
+WebUI.setText(findTestObject('loginpage/input-email'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('loginpage/input_password'), password)
+WebUI.setText(findTestObject('loginpage/input_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('loginpage/btn-login'))
 

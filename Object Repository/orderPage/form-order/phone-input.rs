@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input-phone</name>
+   <name>phone-input</name>
    <tag></tag>
-   <elementGuidId>94a41e27-a0c6-46ef-8766-ab295e0b5e4f</elementGuidId>
+   <elementGuidId>e5f2922e-7275-411f-80f9-5472943ab214</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id=&quot;modal-Order&quot;]//form//input[@name=&quot;txtPhoneNo&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input#txtPhoneNo</value>
+         <value>//input[@name='txtPhoneNo']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

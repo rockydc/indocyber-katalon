@@ -186,10 +186,11 @@ class helper {
 
 				if(Cols.get(0).getText() == name && Cols.get(1).getText() == point) {
 					println(Cols.get(0).getText()+Cols.get(1).getText())
-					Cols.get(2).findElement(By.tagName('a')).click()
+					Cols.get(Cols.size()-1).findElement(By.tagName('a')).click()
 					WebUI.delay(2)
 					WebUI.acceptAlert()
 					isExist = false
+					break
 				}
 			}
 
